@@ -1,0 +1,111 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZTstUcMKvMnO-Z3e339J69hvbfNXcbmvxA&usqp=CAU);
+
+}
+
+/* Faixa */
+
+.faixa{
+    background-color:black;
+    width: 1590px;
+    height: 130px;
+    position: absolute;
+    right: 0.2px;
+    top: 0px;
+}
+
+
+/* Tel, Rua e Navbar */
+.tn{
+    position: relative;
+    left: 70px;
+    color: #fff;
+}
+.tn2{
+    position: relative;
+    left: -290px;
+    top: 20px;
+    color: #fff;
+}
+.navbar{
+    width: 85%;
+  margin: auto;
+  margin-top: -10px;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo da Faixa */
+.logo{
+    width: 190px;
+    position: absolute;
+    top: -31px;
+    left: -8px;
+    cursor: pointer;
+}
+
+
+/* A href botões */
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left: 100px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #228B22;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+/*Conteúdo do Sobre*/
+ .sobre{
+    position: absolute;
+    margin: 122px;
+ }
+
+
+/* A href settings (Sobre) */
+a{
+    text-decoration: none;
+    color: rgb(69, 193, 69);
+}
+a:visited{
+    color: rgb(69, 193, 69);
+}
+a:hover{
+    color: #800000;
+}
+
+/*Fonte Sobre */
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.sobre font{
+    color: #fff;
+}
+.f1s{
+    position: relative;
+    bottom: 40px;
+}
+

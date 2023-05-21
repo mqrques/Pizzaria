@@ -1,0 +1,102 @@
+.faixa{
+    background-color:black;
+    width: 1635px;
+    height: 130px;
+    position: absolute;
+    right: 6px;
+    left: -35px;
+    top: 0px;
+}
+@media screen and (min-width:1000px){
+    .faixa{
+        background-color:black;
+        width: cover;
+        height: 130px;
+        position: absolute;
+        right: 6px;
+        left: -35px;
+        top: 0px;
+    }
+}
+
+
+/* (A melhor pizza) */
+.tn{
+    position: relative;
+    left: 70px;
+    color: #fff;
+}
+.tn2{
+    position: relative;
+    left: -295px;
+    top: 20px;
+    color: #fff;
+}
+.navbar{
+    width: 85%;
+  margin: auto;
+  margin-top: -10px;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo da Faixa */
+.logo{
+    width: 190px;
+    position: absolute;
+    top: -31px;
+    left: 20px;
+    cursor: pointer;
+}
+/* A href botões */
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left: 100px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #228B22;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.fpg{
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    display: inline;
+    top: 150px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.formas{
+    height: auto;
+    width: 6rem;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    left: 25rem;
+}
+
+.total{
+    position: relative;
+    top: 25rem;
+    font-size: 2rem;
+}

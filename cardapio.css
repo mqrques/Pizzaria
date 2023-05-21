@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+}
+body{ 
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZTstUcMKvMnO-Z3e339J69hvbfNXcbmvxA&usqp=CAU);
+}
+
+/* Faixa */
+
+.faixa{
+    background-color:black;
+    width: 1635px;
+    height: 130px;
+    position: absolute;
+    right: 6px;
+    left: -35px;
+    top: 0px;
+}
+
+/* (A melhor pizza) */
+.tn{
+    position: relative;
+    left: 70px;
+    color: #fff;
+}
+.tn2{
+    position: relative;
+    left: -313px;
+    top: 20px;
+    color: #fff;
+}
+.navbar{
+    width: 85%;
+  margin: auto;
+  margin-top: -10px;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo da Faixa */
+.logo{
+    width: 190px;
+    position: absolute;
+    top: -31px;
+    left: -10px;
+    cursor: pointer;
+}
+/* A href botões */
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left: 100px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #228B22;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+/* Cardápio */
+
+.cardapio{
+    position: relative;
+    top: 10rem;
+}
+.cardapio td, tr{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.fontr h3{
+    color: #fff;
+}
+h3{
+    color: #fff;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+img{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.cft{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    top: 9rem;
+}
+h4{
+    color: #fff ;
+    position: relative;
+    text-align: center;
+    right: 20px;
+    top: 8rem;
+}
+
+/* Final Part */
