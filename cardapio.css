@@ -9,12 +9,12 @@ body{
 
 .faixa{
     background-color:black;
-    width: 1635px;
+    width: 1920px;
     height: 130px;
     position: absolute;
-    right: 6px;
-    left: -35px;
+    right: 0.2px;
     top: 0px;
+    
 }
 
 /* (A melhor pizza) */
@@ -25,7 +25,7 @@ body{
 }
 .tn2{
     position: relative;
-    left: -313px;
+    left: -440px;
     top: 20px;
     color: #fff;
 }
@@ -44,7 +44,7 @@ body{
     width: 190px;
     position: absolute;
     top: -31px;
-    left: -10px;
+    left: -45px;
     cursor: pointer;
 }
 /* A href botões */

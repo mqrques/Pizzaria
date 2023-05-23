@@ -7,23 +7,24 @@ body{
 
 .faixa{
     background-color:black;
-    width: 1590px;
+    width: 1920px;
     height: 130px;
     position: absolute;
     right: 0.2px;
     top: 0px;
+    
 }
 
 
 /* Tel, Rua e Navbar */
 .tn{
     position: relative;
-    left: 70px;
+    left: 30px;
     color: #fff;
 }
 .tn2{
     position: relative;
-    left: -290px;
+    left: -460px;
     top: 20px;
     color: #fff;
 }

@@ -9,24 +9,24 @@ body{
 
 .faixa{
     background-color:black;
-    width: 1635px;
+    width: 1920px;
     height: 130px;
     position: absolute;
-    right: 6px;
-    left: -35px;
+    right: 0.2px;
     top: 0px;
+    
 }
 
 
 /* (A melhor pizza) */
 .tn{
     position: relative;
-    left: 70px;
+    left: 40px;
     color: #fff;
 }
 .tn2{
     position: relative;
-    left: -295px;
+    left: -450px;
     top: 20px;
     color: #fff;
 }
@@ -45,7 +45,7 @@ body{
     width: 190px;
     position: absolute;
     top: -31px;
-    left: 20px;
+    left: -15px;
     cursor: pointer;
 }
 /* A href botões */
@@ -124,7 +124,7 @@ form{
     transition: all 0.3s ease;
     position: relative;
     top: 10px;
-    left: 730px;
+    left: 895px;
     display: inline-block;
     width: 70px;
     text-align: center;

@@ -8,13 +8,13 @@ body{
 
 .faixa{
     background-color:black;
-    width: 1635px;
+    width: 1920px;
     height: 130px;
     position: absolute;
-    right: 6px;
-    left: -35px;
+    right: 0.2px;
     top: 0px;
-}
+    
+}   
 
 
 /* (A melhor pizza) */
@@ -92,10 +92,11 @@ body{
     transition: all 0.3s ease;
     position: relative;
     top: 550px;
-    left: 730px;
+    left: 880px;
     display: inline-block;
     width: 70px;
     text-decoration: none;
+
 }
   
 .btn-43 {
@@ -129,7 +130,7 @@ body{
 .formd{
     position: absolute;
     top: 200px;
-    left: 40rem;
+    left: 50rem;
  
 }
 .formd h3{
